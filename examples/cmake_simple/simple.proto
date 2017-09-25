@@ -7,3 +7,6 @@ message SimpleMessage {
     required int32 lucky_number = 1;
 }
 
+message SimpleBytes {
+    optional bytes lucky_bytes = 1;
+}
